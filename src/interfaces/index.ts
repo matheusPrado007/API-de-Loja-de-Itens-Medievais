@@ -6,3 +6,10 @@ export interface IProduct {
 export interface Id {
   id: number,
 }
+
+export interface AllProducts {
+  id?: number,
+  name: string;
+  amount: string;
+  orderId?: number
+}
