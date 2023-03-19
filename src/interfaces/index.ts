@@ -13,3 +13,10 @@ export interface AllProducts {
   amount: string;
   orderId?: number
 }
+
+export interface AllUsers {
+  username: string;
+  vocation: string;
+  level: number;
+  password: string;
+}
