@@ -20,3 +20,9 @@ export interface AllUsers {
   level: number;
   password: string;
 }
+
+export interface AllOrder {
+  id: number;
+  userId: number;
+  productsIds: number[];
+}
